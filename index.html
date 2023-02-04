@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="icon" href="./images/logo.png">
+        <title> Samuel Martins Francisco </title>
+    </head>
+
+    <body>
+        <!-- color palette -->
+        <div class="color-palette">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!-- container -->
+        <div class="container">
+            <header>
+                <figure>
+                    <img src="./images/profile-i2.jpg" alt="me">
+                </figure>
+                <div>
+                    <h1> Samuel Martins Francisco </h1>
+                    <h2> Desenvolvedor front-end </h2>
+                </div>
+            </header>
+            <main>
+                <!-- # about me -->
+                <section class="about-me">
+                    <h2> Sobre mim </h2>
+                    <p>
+                        Sou programador há 4 anos, técnico em <span>desenvolvimento de sistemas</span>, mas sem experiência, ainda, profissionalmente. 
+                        E o que me atraiu nisso tudo, foi a capacidade que a tecnologia tem de se relacionar com todas as outras áreas; 
+                        algo que me permitiria construir soluções, quase que não importando do que se tratasse o problema.
+                    </p>
+                </section>
+
+                <!-- # my knowledge and skills -->
+                <section class="my-knowledge-and-skills">
+                    <h2> Meus Conhecimentos e <span> Habilidades </span> </h2>
+                    <p>
+                        Estou sempre disposto a aprender o que os projetos e as situações venham a requerer, 
+                        mas as ferramentas em que mais me aprofundei, e com que tenho maior contato diariamente são essas. 
+                        Ainda que tenha levado um bom tempo, entendi que as tecnologias são meios, e não fins.
+                    </p>
+                    
+                    <div class="tools-list">
+                        <!-- html -->
+                        <div class="tool">
+                            <figure>
+                                <img src="./images/html.svg" alt="html">
+                            </figure>
+                            <span class="description"><a href="https://html.spec.whatwg.org/multipage/introduction.html#introduction" target="_blank" title="documentação da linguagem"> HTML </a></span>
+                        </div>
+
+                        <div class="related-tools">
+                            <!-- javascript -->
+                            <div class="tool parent">
+                                <figure>
+                                    <img src="./images/javascript.svg" alt="javascript">
+                                </figure>
+                                <span class="description"><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" title="documentação da linguagem"> JavaScript </a></span>
+                            </div>
+
+                            <div class="child">
+                                <!-- react -->
+                                <div class="tool">
+                                    <figure>
+                                        <img src="./images/react.svg" alt="react icon">
+                                    </figure>
+                                    <span class="description"><a href="https://pt-br.reactjs.org/" target="_blank" title="documentação da biblioteca"> React.js </a></span>
+                                </div>
+
+                                <!-- node.js -->
+                                <div class="tool">
+                                    <figure>
+                                        <img src="./images/nodejs.svg" alt="node.js icon">
+                                    </figure>
+                                    <span class="description"><a href="https://nodejs.org/en/about/" target="_blank" title="documentação da plataforma"> Node.js </a></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="related-tools">
+                            <!-- css -->
+                            <div class="tool parent">
+                                <figure>
+                                    <img src="./images/css.svg" alt="css icon">
+                                </figure> 
+                                <span class="description"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" title="documentação da linguagem"> CSS </a></span>
+                            </div> 
+                            <div class="child">
+                                <!-- sass -->
+                                <div class="tool">
+                                    <figure>
+                                        <img src="./images/sass.svg" alt="sass icon">
+                                    </figure> 
+                                    <span class="description"><a href="https://sass-lang.com/documentation/" target="_blank" title="documentação do pré-processador"> Sass </a></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- git -->
+                        <div class="tool">
+                            <figure>
+                                <img src="./images/git.svg" alt="git icon">
+                            </figure>
+                            <span class="description"><a href="https://git-scm.com/about" target="_blank" title="documentação da ferramenta de versionamento"> Git </a></span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- # what i have been creating -->
+                <section class="what-i-have-been-creating">
+                    <h2> O que tenho <span> Criado </span> </h2>
+                    <span id="page-number"> 1 </span>
+
+                    <ul id="project-list">
+                        <div id="list-1" class="current-list">
+                            <li class="selected">
+                                <a href="https://projetos-estudo-react.vercel.app/exercises-generator" target="_blank"> 
+                                    Gerador de exercícios das 4 operações; 
+                                </a>
+                            </li>
+                            <li> 
+                                <a href="https://projetos-estudo-react.vercel.app/simple-keyboard" target="_blank">
+                                    <img src="./images/keyboard.svg" alt="keyboard illustration">
+                                    <span> Teclado virtual simples; </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/SamuelMartinsFrancisco/Microservice-Nodejs_IgniteLab" target="_blank"> 
+                                    <span> Microsserviço de notificações; </span>
+                                    <img src="./images/plant.svg" alt="plant illustration">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://projetos-estudo-react.vercel.app/exercises-generator" target="_blank">
+                                    <img src="./images/coffee-cup.svg" alt="coffee illustration"> 
+                                    <span> GitHub Finder; </span>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+
+                    <div class="see-more-projects">
+                        <button type="button" id="previous" class="disabled"><img src="./images/arrow-left.svg" alt="arrow left"></button>
+                        <button type="button" id="next"><img src="./images/arrow-right.svg" alt="arrow left"></button>
+                    </div>
+                </section>
+
+                <!-- # project description -->
+                <section class="project-description">
+                    <p class="show"> Gera exercícios aleatórios das 4 operações básicas. Desenvolvi quando estava estudando para o Enem, e você pode acessar por <a href="https://projetos-estudo-react.vercel.app/exercises-generator" target="_blank"> aqui</a>. </p>
+                    <p> Um simulador de teclado de computador, criado para estudo, e você pode acessar ele <a href="https://projetos-estudo-react.vercel.app/simple-keyboard" target="_blank"> aqui</a>. </p>
+                    <p> Desenvolvido durante um evento da Rocketseat, e você pode acessar o projeto <a href="https://github.com/SamuelMartinsFrancisco/Microservice-Nodejs_IgniteLab" target="_blank"> aqui</a>. </p>
+                    <p> Um buscador de usuários e seus respectivos repositórios, presentes no GitHub; você pode acessá-lo <a href="https://projetos-estudo-react.vercel.app/exercises-generator" target="_blank"> aqui</a>. </p>
+                    <img src="./images/crooked-arrow.svg" alt="crooked arrow">
+                </section>
+
+                <!-- # contact -->
+                <section class="contact">
+                    <figure class="code-screen">
+                        <img src="./images/code-screen.svg" alt="code screen illustration">
+                        <img src="./images/wind-power.svg" alt="weather vane illustration">
+                    </figure>
+                    <div class="info-block">
+                        <h2> Contato </h2>
+                        <span>
+                            <a href="https://github.com/SamuelMartinsFrancisco" target="_blank" title="perfil no GitHub"><img src="./images/github.svg" alt="github icon"></a>
+                            <a href="mailto:samuelmartinsfrancisco@gmail.com?subject=Assunto do email&body=Oi, tudo bem?! O que gostaria de me dizer?"><img src="./images/mail.svg" alt="letter icon" title="enviar um email"></a>
+                        </span>
+                    </div>
+                </section>
+                
+            </main>
+        </div>
+        <script src="created-projects-section-data.js"></script>
+    </body>
+</html>

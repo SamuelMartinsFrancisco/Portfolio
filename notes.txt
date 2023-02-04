@@ -1,0 +1,16 @@
+1º passo 
+
+deixar css antigo comentado
+
+-------------------------------------------
+
+2º passo 
+
+ordenar as tecnologias em formato de lista. as principais à esquerda, e as demais à direita, 
+com seus respectivos nomes à frente
+
+-------------------------------------------
+
+3º passo
+
+verficar se atendeu às expectativas
