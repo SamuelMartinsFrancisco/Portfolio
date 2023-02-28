@@ -4,7 +4,7 @@ const pageNumber = document.getElementById('page-number');
 
 const projectLists = [
     document.getElementById('list-1'),
-    // document.getElementById('list-2'),
+    document.getElementById('list-2'),
     // document.getElementById('list-3')
 ];
 
@@ -15,9 +15,9 @@ function executeAll() {
     currentList();
     showProjectInfo();
 
-    document.addEventListener('click', (event) => {
-        console.log(event);
-    })
+    // document.addEventListener('click', (event) => {
+    //     console.log(event);
+    // })
 }
 
 ///////////////////////////////////////////////////////////////////////////////////
@@ -47,7 +47,7 @@ function currentList() {
     });
 
     nextButton.addEventListener('click', () => {
-        console.log(index);
+        // console.log(index);
         if (index < projectListsLength && index !== lastIndex) {
             index++;
         }
